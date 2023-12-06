@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 150px;
-    flex-grow: 1;
+    flex: auto;
 }
 
 ul {
@@ -29,10 +29,38 @@ a {
 .space1 {
     display: flex;
     width: 100px;
-    flex-grow: 0,5;
 }
 
 .test {
     display: flex;
     background-color: #1F2937;
+}
+
+.h1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: auto;
+    padding: 50px 150px;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    width: 400px;
+    font-size: 48px;
+}
+
+p {
+    margin: 0;
+    width: 400px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 30px;
 }
