@@ -48,13 +48,13 @@ a {
 
 h1 {
     margin: 0;
-    width: 400px;
+    max-width: 400px;
     font-size: 48px;
 }
 
 p {
     margin-top: 4px;
-    width: 400px;
+    max-width: 400px;
 }
 
 button {
