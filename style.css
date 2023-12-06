@@ -67,10 +67,10 @@ button {
 .image {
     display: flex;
     height: 200px;
-    width: 200px;
+    width: 500px;
     justify-content: center;
     align-items: center;
     background-color: grey;
-    margin: 60px 150px 0 40px;
+    margin: 60px 150px 0 0;
     flex: auto;
 }
