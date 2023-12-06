@@ -44,6 +44,7 @@ a {
     justify-content: space-between;
     flex: auto;
     padding: 50px 150px;
+    padding-right: 50px;
     margin: 0;
 }
 
@@ -54,7 +55,7 @@ h1 {
 }
 
 p {
-    margin: 0;
+    margin-top: 4px;
     width: 400px;
 }
 
@@ -63,4 +64,15 @@ button {
     padding: 0;
     width: 100px;
     height: 30px;
+}
+
+.image {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    background-color: grey;
+    margin-top: 40px;
+    padding: 20px 150px;
+    flex: auto;
 }
