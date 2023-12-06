@@ -8,7 +8,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px 150px;
+    padding: 16px 150px 50px;
     flex: auto;
     font-weight: bold;
     color: #f9faf8;
@@ -53,13 +53,13 @@ a {
 
 h1 {
     margin: 0;
-    max-width: 400px;
+    max-width: 450px;
     font-size: 48px;
 }
 
 p {
     margin-top: 4px;
-    max-width: 400px;
+    max-width: 450px;
     font-size: 18px;
     color: #e5e7eb;
 }
