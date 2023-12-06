@@ -68,7 +68,6 @@ button {
 
 .image {
     display: flex;
-    width: 300px;
     height: 200px;
     align-items: center;
     background-color: grey;
