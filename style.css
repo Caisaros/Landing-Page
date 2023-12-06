@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 150px;
+    flex-grow: 1;
 }
 
 ul {
@@ -28,6 +29,7 @@ a {
 .space1 {
     display: flex;
     width: 100px;
+    flex-grow: 0,5;
 }
 
 .test {
