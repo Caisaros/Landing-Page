@@ -74,12 +74,17 @@ button {
 .image {
     display: flex;
     height: 200px;
-    width: 500px;
+    width: 450px;
     justify-content: center;
     align-items: center;
     background-color: darkgrey;
     margin: 60px 150px 0 0;
     flex: auto;
+}
+
+.img1 {
+    height: 200px;
+    width: 500px;
 }
 
 button {
@@ -90,4 +95,39 @@ button {
     border: none;
     text-decoration: none;
     border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    gap: 52px;
+}
+
+.title1 {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.info {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.text {
+    color: #1F2937;
+    text-align: center;
+}
+
+.image2 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 12px;
 }
