@@ -204,3 +204,11 @@ button {
     align-items: center;
     flex-wrap: wrap;
 }
+
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
