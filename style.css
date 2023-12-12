@@ -97,18 +97,27 @@ button {
     border-radius: 8px;
 }
 
-.container {
+.container1 {
     display: flex;
     flex: auto;
     justify-content: center;
     gap: 52px;
 }
 
+.container2 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+    padding: 50px 0 125px 0;
+}
+
 .title1 {
     color:#1F2937;
     font-size: 36px;
     font-weight: bold;
-    margin: 30px;
+    margin-top: 40px;
 }
 
 .info {
@@ -130,4 +139,18 @@ button {
     height: 150px;
     margin-bottom: 10px;
     border-radius: 12px;
+}
+
+.test2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 180px 100px 180px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
