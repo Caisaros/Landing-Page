@@ -198,6 +198,7 @@ button {
 
 .move {
     display: flex;
+    width: 450px;
     margin-left: 250px;
     justify-content: center;
     align-items: center;
